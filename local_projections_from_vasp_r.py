@@ -23,7 +23,7 @@ import numpy as np
 
 # Inputs
 # Mesh grid. Should be commensurate with the non-self-consistent k mesh
-rgrid = [ 120,120,48 ] # real-space grid for the AE wavefunctions
+rgrid = [ 120,120,64 ] # real-space grid for the AE wavefunctions
 Ecut = 20 # Planewave cut-off energy multiplicative term
 Nkx = 16; Nky = 16; Nkz = 16 # for TRIQS e to VASP nscf !!!!CHANGE HERE!!!!
 psi_filename = './data/oproj_'+'kx'+str(Nkx)+'ky'+str(Nky)+'kz'+str(Nkz)+'_P.npz'
