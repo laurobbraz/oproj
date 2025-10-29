@@ -26,7 +26,7 @@ import sphericart
 # Mesh grid. Should be commensurate with the non-self-consistent k mesh
 rgrid = [ 120,120,64 ] # real-space grid for the AE wavefunctions
 order = 9 # Nearest-neighbors order (1st, 2nd, 3rd, etc.)
-Ecut = 20 # Planewave cut-off energy multiplicative term
+Ecut = 10 # Planewave cut-off energy multiplicative term
 Nkx = 16; Nky = 16; Nkz = 16 # for TRIQS e to VASP nscf !!!!CHANGE HERE!!!!
 psi_filename = './data/oproj_'+'kx'+str(Nkx)+'ky'+str(Nky)+'kz'+str(Nkz)+'_P.npz'
 # psi_filename = './data/oproj_'+'kx'+str(Nkx)+'ky'+str(Nky)+'kz'+str(Nkz)+'_P_HSD.npz'
