@@ -5,4 +5,5 @@ ase
 sphericart
 pymatgen
 mpi4py
+pyvista
 # other plotting libraries
