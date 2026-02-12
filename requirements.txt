@@ -5,5 +5,9 @@ ase
 sphericart
 pymatgen
 mpi4py
+scikit-image
 pyvista
+pyvistaqt
+PyQt5
+ipympl
 # other plotting libraries
